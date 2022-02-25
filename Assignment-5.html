@@ -8,36 +8,46 @@
     <link rel="stylesheet" href="css/Assignment-5-Style.css">
 </head>
 <body>
+    <div id="constainer">
   <header>
-      <h1>Money Master</h1>
+      <h1>Money Bank</h1>
   </header>
   <main>
-      <section id="money-information">
+      <section id="money-container">
+          <div class="money-information">
           <div class="picture">
-              <img src="photos/money-calculator.jpg" alt="">
+              <img src="photos/money-calculation.jpg" alt="">
           </div>
 
-          <div class="money-calculation">
-              <div class="income">
-                <h2>Income</h2>
-                <p>Total Income:</p>
-                <p>10000</p>
+          <div class="money-container">
+           <div class="money-calculation">
+            <div class="income">
+                <h2 class="income-alighn">Income</h2>
+                <p class="total-alighn">Income:</p>
+                <input type="text" id="total-income" class="input"  placeholder="Total Income">
               </div>
               <div class="expenses">
-                <h2>Expenses</h2>
-                  <p>Food:</p>
-                  <input type="text" id="food-cost" class="input"  placeholder="cost of food">
-                  <br>
-                  <p>Rent:</p>
-                  <input type="text" id="rent-cost" class="input" placeholder="cost of Rent">
-                  <br>
-                  <p>Clothes:</p>
-                  <input type="text" id="clothes-cost" class="input" placeholder="cost of Clothes">
+                <h2 class="expenses-alighn">Expenses</h2>
+
+                 <div class="input">
+                    <p class="alighn2">Food:</p>
+                    <input type="text" id="food-input" class="input"  placeholder="cost of food">
+                 </div>
+
+                 <div class="input">
+                    <p class="alighn">Rent:</p>
+                    <input type="text" id="rent-input" class="input" placeholder="cost of Rent">
+                 </div>
+                
+                <div class="input">
+                    <p>Clothes:</p>
+                    <input type="text" id="clothes-input" class="input" placeholder="cost of Clothes">
+                </div>
               </div>
               <div class="calculation-btn">
                   <button id="calculation-btn">Calculation</button>
                   <h2>Total Expenses: <span id="total-expenses">0000</span></h2>
-                  <h2>Balance: <span id="total-balance">0000</span></h2>
+                  <h2 class="balance">Balance: <span id="total-balance">0000</span></h2>
               </div>
               <div class="save-money">
                   <input type="text" id="saving-input" class="input" placeholder="Save Money">
@@ -46,14 +56,14 @@
 
               <div class="saving-amount">
                   <h2>Saving Amount: <span id="saving-amount">0000</span></h2>
-                  <h2>Remaining Balance: <span id="remaining-balance">0000</span></h2>
+                  <h2 class="remaining-alighn">Remaining Balance: <span id="remaining-balance">0000</span></h2>
               </div>
-
+           </div>
           </div>
+        </div>
       </section>
   </main>
-    
-
+</div>
     <script src="js/Assignment-5.js"></script>
 </body>
 </html>
