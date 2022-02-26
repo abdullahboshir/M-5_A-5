@@ -31,7 +31,7 @@ h2{
     padding-top: 5px;
 }
 .money-information{
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 30px;
     width: 93%;
     display: flex;
@@ -103,7 +103,8 @@ button{
 }
 
 .picture{
-    padding-left: 35px;  
+    padding-left: 35px; 
+    
 }
 
 img{
@@ -111,10 +112,11 @@ img{
     height: 660px;
 }
 
-
-
 p{
     display: inline;
     font-weight: 600;
 };
+
+
+/* resposive for mobile device  */
 
