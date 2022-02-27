@@ -1,3 +1,5 @@
+
+
 // get all ID 
 function calculate(recieveAllId) {
     return document.querySelector(recieveAllId);
@@ -47,6 +49,7 @@ calculateBtn.addEventListener("click", function () {
 // end expenses sum
 
 
+
 // start geting save money percentage 
 function persent(divided) {
     const IncomeTotall = parseInt(totalIncome.value);
@@ -73,11 +76,14 @@ function rmainingTotal() {
     return  balance - remainingInner;
 }
 
-saveBtn.addEventListener("click", function () {
+    saveBtn.addEventListener("click", function () {
     const saveMoney = persent(saveInput.value);
-    savingAmount.innerText = saveMoney;
+    
+    const IncomeTotal = parseInt(totalIncome.value);
 
-    const remainingfinal =  remainingBalance.innerText =  rmainingTotal();
+
+        const remainingfinal = remainingBalance.innerText = rmainingTotal();
+        savingAmount.innerText = saveMoney;
     
     if (remainingfinal > saveMoney ) {
         remainingBalance.innerText = rmainingTotal();
