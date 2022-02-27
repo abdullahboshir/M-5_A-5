@@ -1,0 +1,20 @@
+{
+  "name": "money-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Porgramming-Hero-web-course/money-master-abdullahboshir.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Porgramming-Hero-web-course/money-master-abdullahboshir/issues"
+  },
+  "homepage": "https://github.com/Porgramming-Hero-web-course/money-master-abdullahboshir#readme"
+}
